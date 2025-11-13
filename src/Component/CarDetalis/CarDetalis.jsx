@@ -11,7 +11,7 @@ export default function CarDetalis() {
             <div
               className={`${Style.img} col-lg-6 d-none d-lg-flex align-items-center justify-content-center position-relative `}
             >
-              <img src="/public/imges/Audi.png" className="w-100" alt="" />
+              <img src="/public/images/Audi.png" className="w-100" alt="" />
             </div>
 
             <div className="col-md-6">

@@ -59,7 +59,7 @@ export default function Download() {
                 <img
                   alt=""
                   className="w-75 b-0"
-                  src="/public/imges/iphone.png"
+                  src="/public/images/iphone.png"
                 />
               </div>
             </div>

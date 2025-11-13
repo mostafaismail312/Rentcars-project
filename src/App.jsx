@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Navbar from "./Component/NavBar/NavBar";
 import Hero from "./Component/Hero/Hero";
+import "bootstrap";
 import "./App.css";
 import MasterLayOut from "./Component/MasterLayOut/MasterLayOut";
 import Footer from "./Component/Footer/Footer";

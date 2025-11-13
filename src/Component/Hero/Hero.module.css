@@ -11,7 +11,7 @@ body {
   font-size: 45px;
 }
 .supTitle {
-  background-image: url("../imges/Vector.png");
+  background-image: url("../images/Vector.png");
   background-repeat: no-repeat;
   padding-bottom: 10px;
   background-position: bottom;
@@ -21,7 +21,7 @@ body {
   flex-direction: column;
 }
 .heroImage {
-  background-image: url("../imges/bg-car.png");
+  background-image: url("../images/bg-car.png");
   background-size: 100% 100%;
   position: relative;
 }

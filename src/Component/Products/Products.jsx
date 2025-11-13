@@ -5,10 +5,10 @@ import ProductCard from "../ProductCard/ProductCard";
 export default function Products({ limit }) {
   const [productsList, setproductsList] = useState([]);
   const images = [
-    "/imges/1.png",
-    "/imges/2.png",
-    "/imges/3.png",
-    "/imges/4.png",
+    "/images/1.png",
+    "/images/2.png",
+    "/images/3.png",
+    "/images/4.png",
   ];
 
   useEffect(() => {

@@ -16,7 +16,7 @@ export default function Footer() {
               <div className="d-flex p-1 justify-content-start align-items-center gap-3">
                 <img
                   alt=""
-                  src="/public/imges/Frame.png "
+                  src="/public/images/Frame.png "
                   style={{
                     width: 33,
                   }}

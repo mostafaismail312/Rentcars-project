@@ -4,10 +4,6 @@ import "animate.css";
 import "@fontsource/poppins";
 import "@fontsource/roboto";
 import "@fontsource/open-sans";
-// import ProductCard from "../ProductCard/ProductCard";
-// import Products from "../Products/Products";
-
-import ProductCard from "../productCard/ProductCard";
 
 export default function Hero() {
   return (
@@ -33,8 +29,12 @@ export default function Hero() {
             you need it with your IOS and Android device.
           </p>
           <div className="my-4 ps-5">
-            <img className="me-3" alt="dload-Android" src="/imges/G-play.png" />
-            <img alt="dload-ios" src="/imges/A-store.png" />
+            <img
+              className="me-3"
+              alt="dload-Android"
+              src="/images/G-play.png"
+            />
+            <img alt="dload-ios" src="/images/A-store.png" />
           </div>
         </div>
 
@@ -42,7 +42,7 @@ export default function Hero() {
           <img
             className={`car w-100 ${Style.heroImageCar}`}
             alt="carImg"
-            src="/imges/car.png"
+            src="/images/car.png"
           />
         </div>
       </div>

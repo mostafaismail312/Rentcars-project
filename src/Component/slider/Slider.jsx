@@ -46,59 +46,59 @@ export default function BrandSlider() {
       >
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand1.png" alt="brand1" />
+            <img style={imgStyle} src="/images/brand1.png" alt="brand1" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand2.png" alt="brand2" />
+            <img style={imgStyle} src="/images/brand2.png" alt="brand2" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand3.png" alt="brand3" />
+            <img style={imgStyle} src="/images/brand3.png" alt="brand3" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand4.png" alt="brand4" />
+            <img style={imgStyle} src="/images/brand4.png" alt="brand4" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand1.png" alt="brand1" />
+            <img style={imgStyle} src="/images/brand1.png" alt="brand1" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand2.png" alt="brand2" />
+            <img style={imgStyle} src="/images/brand2.png" alt="brand2" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand3.png" alt="brand3" />
+            <img style={imgStyle} src="/images/brand3.png" alt="brand3" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand4.png" alt="brand4" />
+            <img style={imgStyle} src="/images/brand4.png" alt="brand4" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand1.png" alt="brand1-2" />
+            <img style={imgStyle} src="/images/brand1.png" alt="brand1-2" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={slideStyle}>
-            <img style={imgStyle} src="/imges/brand2.png" alt="brand2-2" />
+            <img style={imgStyle} src="/images/brand2.png" alt="brand2-2" />
           </div>
         </SwiperSlide>
       </Swiper>

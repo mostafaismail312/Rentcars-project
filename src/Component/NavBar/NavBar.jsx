@@ -16,7 +16,7 @@ function NavbarComponent({ style }) {
     >
       <div className="container px-4">
         <a className="navbar-brand" href="#">
-          <img src="/imges/logo.png" alt="logo" className="w-75" />
+          <img src="/images/logo.png" alt="logo" className="w-75" />
         </a>
 
         <button

@@ -9,10 +9,10 @@ export default function AllCars() {
   const productsPerPage = 8;
 
   const images = [
-    "/imges/1.png",
-    "/imges/2.png",
-    "/imges/3.png",
-    "/imges/4.png",
+    "/images/1.png",
+    "/images/2.png",
+    "/images/3.png",
+    "/images/4.png",
   ];
 
   useEffect(() => {

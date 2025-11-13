@@ -7,11 +7,12 @@ import Slider from "../slider/Slider";
 import BestDeals from "../BestDeals/BestDeals";
 import Testimonials from "../Testimonials/Testimonials";
 import Download from "../Download/Download";
+import "bootstrap";
 
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero /> 
       <Products limit={4} />
       <HowItWorks />
       <Slider />
