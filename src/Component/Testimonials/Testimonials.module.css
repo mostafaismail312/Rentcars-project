@@ -1,0 +1,23 @@
+.section1 {
+  background-image: url(/public/imges/bg1.png), url(/public/imges/bg2.png);
+  background-color: #f7fbff;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 13%, 10%;
+  background-position: 14% 10%, 85% 15%;
+  padding: 60px 0;
+}
+.testHead {
+  color: #0d6efd;
+  background-color: #0d6efd20;
+  width: fit-content;
+  margin: auto;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+@media (max-width: 570px) {
+  .section1 {
+    padding: 30px;
+  }
+}

@@ -1,0 +1,8 @@
+.boxIcon {
+  transition: "all 0.3s ease";
+}
+@media (max-width: 570px) {
+  .boxIcon {
+    padding: 0;
+  }
+}

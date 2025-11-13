@@ -1,0 +1,72 @@
+body {
+  font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.section {
+  padding: 50px 0;
+}
+.homeTitle {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 45px;
+}
+.supTitle {
+  background-image: url("../imges/Vector.png");
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  background-position: bottom;
+  color: #1572d3 !important;
+}
+.heroText {
+  flex-direction: column;
+}
+.heroImage {
+  background-image: url("../imges/bg-car.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+.heroImageCar {
+  position: absolute;
+  top: 0;
+  width: 0;
+  /* right: 200px; */
+  animation: 2s ease 0s 1 normal forwards running moveToRight;
+}
+@keyframes moveToRight {
+  0% {
+    top: -100px;
+    right: -300px;
+    width: 10%;
+  }
+  100% {
+    top: 0;
+    right: 0px;
+    width: 30%;
+  }
+}
+
+/* media  */
+@media (max-width: 570px) {
+  .heroText {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .heroImage {
+    display: none;
+  }
+  .homeTitle {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (min-width: 570px) {
+  .section {
+    padding: 50px 0;
+    height: 600px;
+  }
+  .heroText {
+    padding: 50px 80px;
+  }
+}

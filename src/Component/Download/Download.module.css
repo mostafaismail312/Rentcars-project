@@ -1,0 +1,49 @@
+.leftSection {
+  background-image: url(/public/imges/re1.png);
+  background-position: 75% 69%;
+  background-size: 100% 100%;
+  padding-top: 77px;
+  padding-left: 50px;
+}
+.leftSection h3 {
+  font-weight: 900;
+  font-size: 47px;
+  font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+}
+.leftSection h3 span {
+  padding-left: 10px;
+}
+.leftSection p {
+  font-size: 14;
+}
+
+.inputDiv input {
+  max-width: 80%;
+  background-color: #cedcff;
+  padding: 10px 20px;
+  border-radius: 25px;
+
+  margin-bottom: 15px;
+}
+.formDiv button {
+  background-color: #1572d3;
+  margin: auto;
+  padding: 5px 30px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.rightSection div {
+  position: relative;
+}
+.rightSection div img {
+  position: absolute;
+  top: 158px;
+  left: 262px;
+}
+
+@media (max-width: 570px) {
+  .rightSection div img {
+    display: none;
+  }
+}

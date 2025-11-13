@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.searchInput {
+  border: none;
+  padding: 15px 40px;
+  position: relative;
+  background-image: url("../imges/location.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.searchBtn {
+  position: absolute;
+  right: 10px;
+  top: 52px;
+  background-color: #1572d3;
+  color: #fff;
+  padding: 10px 35px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-5px);
+}
+
+@media (max-width: 570px) {
+  .card {
+    margin: auto;
+    width: 80%;
+  }
+}

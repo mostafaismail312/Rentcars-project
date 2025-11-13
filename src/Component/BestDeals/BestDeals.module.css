@@ -1,0 +1,13 @@
+.img {
+  background-image: url(/public/imges/re1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 720px;
+}
+@media (max-width: 570px) {
+  .mainContainer {
+    padding: 40px;
+    margin: auto;
+  }
+}
